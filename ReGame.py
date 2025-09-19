@@ -4,7 +4,7 @@ import time
 import os
 import telebot
 import sys
-token='7020334063:AAEFg2CgntS33GnveN2JtL-ESJ56AHoBBC0'
+token='no'
 bot=telebot.TeleBot(token)
 @bot.message_handler(commands=['start'])
 def start_message(message):
